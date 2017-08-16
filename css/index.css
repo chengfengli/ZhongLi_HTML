@@ -3,7 +3,130 @@
 	padding: 0;
 	font-family: "微软雅黑";
 }
+header{
+	position: relative;
+    z-index: 100;
+}
+body{
+	min-width: 1366px;
+}
 #header{
 	width: 100%;
 	height: 90px;
+}
+#banner_box{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#banner_img_box{
+	transition: 1s;
+}
+#banner_img_box .banner_img{
+	float: left;
+	width: 100%;
+}
+#banner_img_box .banner_img img{
+	width: 100%;
+}
+
+#banner_btn_box div{
+	list-style: none;
+	background: url(../img/banner_btn.png) no-repeat;
+	float: left;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	margin: 0 5px;
+	cursor: pointer;
+}
+#banner_btn_box .banner_btn_box_hover{
+	background: url(../img/banner_btn_hover.png) no-repeat;
+}
+#banner_btn_box{
+	position: absolute;
+    bottom: 4%;
+    left: 50%;
+    margin-left: -36px;
+}
+
+#body_child_1{
+	background: #3797d6;
+}
+#body_child_1 table{
+	margin-left:60px;
+	height: 100px;
+}
+#body_child_1 .font_style_color{
+	font-size: 64px;
+	color: #efd914;
+}
+#body_child_1 .down1{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -21px;
+	height: 100px;
+    line-height: 100px;
+}
+#body_child_1 ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#body_child_1 .img_box{
+	display: inline-block;
+	font-size: 0;
+}
+
+/*企业安全管家*/
+#SafeMgr{
+	background: #f6f6f6;padding: 40px 0 30px 0;
+}
+#SafeMgr_title{
+	color: #3F97D0;
+	text-align: center;
+}
+#SafeMgr_title_ZH{
+	font-size: 36px;
+}
+#SafeMgr_title_NG{
+	font-size: 18px;
+	background: url(../img/SafeMgr_split_line.png) center center no-repeat;
+}
+#SafeMgr_banner_img{
+	width: 100%;
+}
+#SafeMgr_dynamic_box{
+	width: 1239px;
+	border: 1px solid;
+	position: relative;
+    top: -170px;
+    margin: 0 auto;
+    font-size: 0;
+}
+#SafeMgr_dynamic_img_box a{
+	font-size: 0;
+}
+#SafeMgr_dynamic_img_box a img{
+	width: 401px;
+}
+#SafeMgr_dynamic_img_box a:nth-child(2){
+	margin: 0 18px;
+}
+#SafeMgr_dynamic_left{
+	width: 852px;
+}
+#SafeMgr_dynamic_left_title{
+	border-bottom: 2px solid #c0c3c7;
+}
+#SafeMgr_dynamic_box .more{
+	text-decoration: none;
+	color: #c0c3c7;
+	float: right;
+	font-size: 14px;
+	margin-top: 52px;
+}
+#SafeMgr_dynamic_box .more:hover{
+	color: #3F97D0;
 }

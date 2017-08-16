@@ -1,4 +1,3 @@
-
 function select_header(id){
 	if(id){
 		$('#'+id).addClass('bg_color').css("color","#fff");
