@@ -1,0 +1,96 @@
+@font-face {
+  font-family: '方正兰亭准黑_GBK';   /*字体名称*/
+  src:url('../font/方正兰亭准黑_GBK.ttf');       /*字体源文件*/
+}
+.Computing_banner{	
+	width: 100%;
+	height:700px;
+	background:url('../img/high_speed_operation.jpg');
+}
+.Computing_menu{
+	width:100%;
+	height: 120px;
+	background: #1771ab;
+}
+.Computing_menu ul{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.Computing_menu ul li{
+	float: left;
+	list-style: none;
+	width: 398px;
+	height: 100%;
+	border-left: 1px solid #125A8A;
+	border-right: 1px solid #125A8A;
+	font-size: 28px;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	line-height: 120px;
+	text-indent:160px ;
+	
+}
+.Computing_menu ul li:nth-child(1){
+	background: url('../img/Cloud_media.png') no-repeat ;
+	background-position: 40px center;
+}
+.Computing_menu ul li:nth-child(1):hover{
+	background: url('../img/Cloud_media_hover.png') no-repeat ;
+	background-position: 40px center;
+	color: #eec782;
+}
+.Computing_menu ul li:nth-child(2){
+	background: url('../img/network_security.png') no-repeat ;
+	background-position: 40px center;
+}
+.Computing_menu ul li:nth-child(2):hover{
+	background: url('../img/network_security_hover.png') no-repeat ;
+	background-position: 40px center;
+	color: #eec782;
+}
+.Computing_menu ul li:nth-child(3){
+	background: url('../img/edge_computing.png') no-repeat ;
+	background-position: 40px center;
+}
+.Computing_menu ul li:nth-child(3):hover{
+	background: url('../img/edge_computing_hover.png') no-repeat ;
+	background-position: 40px center;
+	color: #eec782;
+}
+.Computing_content{
+	width: 100%;
+		
+}
+.Computing_title{
+	
+	width: 900px;
+	height: 150px;
+	margin: 0 auto;
+	background: rosybrown;
+}
+.Computing_title P:nth-child(1){
+font-family:方正兰亭准黑_GBK;
+font-size: 18px;
+color: #a2abb1;
+text-align: center;
+padding-top: 40px;
+}
+.Computing_title P:nth-child(2){
+text-align: center;
+padding-top: 18px;	
+}
+.Computing_title hr{
+	width: 300px;
+	height:2px;
+	border:none;
+	border-top:2px solid #bcc6cd;" 
+	
+}
+.Computing_title span{
+font-family:方正兰亭准黑_GBK;
+font-size: 36px;
+color: #3F97D0;
+
+	
+}
