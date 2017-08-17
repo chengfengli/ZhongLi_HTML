@@ -73,7 +73,9 @@ body{
 
 /*企业安全管家*/
 #SafeMgr{
-	background: #f6f6f6;padding: 40px 0 30px 0;
+	background: #f6f6f6;
+	padding-top: 40px;
+	z-index: 100;
 }
 #SafeMgr_title{
 	color: #3F97D0;
@@ -86,12 +88,14 @@ body{
 	font-size: 18px;
 	background: url(../img/SafeMgr_split_line.png) center center no-repeat;
 }
+#SafeMgr_banner{
+	margin-top: 30px;
+}
 #SafeMgr_banner_img{
 	width: 100%;
 }
 #SafeMgr_dynamic_box{
 	width: 1239px;
-	border: 1px solid;
 	position: relative;
     top: -170px;
     margin: 0 auto;
@@ -107,10 +111,11 @@ body{
 	margin: 0 18px;
 }
 #SafeMgr_dynamic_left{
-	width: 852px;
+	width: 858px;
+	float: left;
 }
-#SafeMgr_dynamic_left_title{
-	border-bottom: 2px solid #c0c3c7;
+#SafeMgr_dynamic_left_title,#SafeMgr_dynamic_right_title{
+	margin-bottom: 22px;
 }
 #SafeMgr_dynamic_box .more{
 	text-decoration: none;
@@ -121,4 +126,88 @@ body{
 }
 #SafeMgr_dynamic_box .more:hover{
 	color: #3F97D0;
+}
+#SafeMgr_dynamic_right{
+	width: 320px;
+	float: right;
+}
+#SafeMgr_dynamic_left_banner{
+	width: 400px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+#SafeMgr_dynamic_left_banner .banner_img{
+	list-style: none;
+	width: 1200px;
+	font-size: 0;
+	height: 350px;
+	transition: 1s;
+}
+#SafeMgr_dynamic_left_banner .banner_img li{
+	width: 400px;
+	height: 350px;
+	float: left;
+}
+#SafeMgr_dynamic_left_banner .left{
+	position: absolute;
+    top: 50%;
+    margin-top: -22px;
+}
+#SafeMgr_dynamic_left_banner .right{
+	position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    right: 0;
+}
+#SafeMgr_dynamic_left_banner .banner_img li h2{
+	font-size: 18px;
+    text-align: center;
+    background: #000;
+    opacity: 0.7;
+    color: #fff;
+    padding: 8px;
+    margin-top: 310px;
+}
+#SafeMgr_dynamic_left_news{
+	list-style: none;
+	float: left;
+	margin-left: 22px;
+	width: 436px;
+}
+#SafeMgr_dynamic_left_news li{
+	line-height: 24px;
+	border-bottom: 1px solid #b8babc;
+	padding-bottom: 5px;
+	margin-bottom: 13px;
+}
+#SafeMgr_dynamic_left_news .news_title{
+	font-size: 16px;
+	color: #6f7275;
+	cursor: pointer;
+}
+#SafeMgr_dynamic_left_news .news_title:hover{
+	color: #3f97d0;
+}
+#SafeMgr_dynamic_left_news .news_content{
+	font-size: 12px;
+    color: #85898c;
+}
+#SafeMgr_dynamic_right_img{
+	border: 1px solid transparent;
+	background: #ccc;
+	height: 350px;
+}
+#SafeMgr_dynamic_right_img h2{
+	font-size: 18px;
+    text-align: center;
+    background: #000;
+    opacity: 0.7;
+    color: #fff;
+    padding: 8px;
+    margin-top: 310px;
+}
+.not_float{
+	clear: both;
 }

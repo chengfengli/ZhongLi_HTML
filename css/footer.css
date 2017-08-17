@@ -20,6 +20,7 @@ body{
 #footer_top_box{
 	width: 444px;
 	padding-top: 22px;
+	position: absolute;
 }
 #footer_top_title{
 	font-size: 32px;
