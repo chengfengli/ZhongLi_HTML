@@ -1,7 +1,4 @@
 $(function(){
-	$("header").load("header.html");
-	$("footer").load("footer.html");
-	
 	var img_width = $('#banner_img_box .banner_img img').width();
 	var img_height = $('#banner_img_box .banner_img img').height();
 	$('#banner_img_box .banner_img').width(img_width);

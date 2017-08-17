@@ -4,6 +4,9 @@
 	padding: 0;
 	font-family: "微软雅黑";
 }
+body{
+	background: #f6f6f6;
+}
 
 #footer_top{
 	color: #3f97d0;
@@ -11,7 +14,7 @@
 	width: 1218px;
 	margin: 0 auto;
 	height: 152px;
-	background: #fff;
+	background: #f6f6f6;
     padding: 0 0 0 20px;
 }
 #footer_top_box{

@@ -6,12 +6,7 @@
 body{
 	min-width: 1366px;
 }
-header{
-	position: relative;
-    z-index: 100;
-    width: 100%;
-	height: 90px;
-}
+
 #banner_box{
 	width: 100%;
 	overflow: hidden;
