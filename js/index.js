@@ -15,8 +15,8 @@ function img_width_auto(){
 }
 $(function(){
 	img_width_auto();
+	/*banner图片定时自动轮播*/
 	var index = 0;
-	/*banner图片定时自动切换*/
 	setInterval(function(){
 		index++;
 		if(index>=3){
@@ -26,6 +26,17 @@ $(function(){
 		$("#banner_img_box").css({'margin-left':-(index*img_width)+"px"});
 		$("#banner_btn_box div").removeClass('banner_btn_box_hover');
 		$("#banner_btn_box div:eq("+index+")").addClass('banner_btn_box_hover');
+	},3000);
+	
+	/*新闻动态图片定时自动轮播*/
+	var news_index = 0;
+	setInterval(function(){
+		news_index++;
+		if(news_index>=3){
+			news_index = 0;
+		}
+		var img_width = $('#SafeMgr_dynamic_left_banner .banner_img li').width();
+		$("#SafeMgr_dynamic_left_banner .banner_img").css({'margin-left':-(news_index*img_width)+"px"});
 	},3000);
 	
 	/*点击切换banner*/

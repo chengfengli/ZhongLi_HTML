@@ -53,6 +53,14 @@ body{
 	font-size: 14px;
 	margin-bottom: 13px;
 }
+#footer_nav_box table:nth-child(1) li a{
+	color: #9a9999;
+	font-size: 14px;
+	text-decoration: none;
+}
+#footer_nav_box table:nth-child(1) li a:hover{
+	text-decoration: underline;
+}
 #footer_nav_box table:nth-child(1) .footer_nav_title{
 	font-size: 20px;
 	margin-bottom: 18px;

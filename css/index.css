@@ -3,6 +3,9 @@
 	padding: 0;
 	font-family: "微软雅黑";
 }
+a{
+	text-decoration: none;
+}
 body{
 	min-width: 1366px;
 }
@@ -169,6 +172,9 @@ body{
 	line-height: 30px;
 	font-weight: normal;
 }
+#img_big_box2 .img_box a{
+	color: #fff;
+}
 
 
 /*企业安全管家*/
@@ -274,9 +280,13 @@ body{
 	float: right;
 	font-size: 14px;
 	margin-top: 52px;
+	display: inline-block;
+    background: url(../img/more.png) no-repeat 36px 4px;
+    width: 50px;
 }
 #SafeMgr_dynamic_box .more:hover{
 	color: #3F97D0;
+	background: url(../img/more-hover.png) no-repeat 36px 4px;
 }
 #SafeMgr_dynamic_right{
 	width: 320px;
@@ -344,6 +354,9 @@ body{
 #SafeMgr_dynamic_left_news .news_content{
 	font-size: 12px;
     color: #85898c;
+}
+#SafeMgr_dynamic_left_news .date{
+	float: right;
 }
 #SafeMgr_dynamic_right_img{
 	border: 1px solid transparent;
