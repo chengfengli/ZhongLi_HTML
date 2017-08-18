@@ -1,0 +1,292 @@
+#software_server_body{
+	
+}
+#software_server_banner{
+	font-size: 0;
+}
+#software_server_banner img{
+	width: 100%;
+}
+#tab_box{
+	background: #1771ab;
+	height: 121px;
+}
+#tab_box div:nth-child(1){
+	margin-left: 20%;
+	background-image: url(../img/hr.jpg);
+	background-repeat: no-repeat;
+}
+#tab_box div:nth-child(2){
+	background-image: url(../img/hr2.jpg);
+	background-repeat: no-repeat;
+}
+
+#tab_box div{
+	float: left;
+	background: #1771ab;
+	width: 30%;
+}
+#tab_box a{
+	color: #fff;
+	display: inline-block;
+	padding: 38px 0;
+	font-size: 34px;
+}
+
+#tab_365,#powerBI{
+	width: 30%;
+	text-align: center;
+}
+#tab_box .active{
+	background-color: #1f85c6;
+}
+#office365_box_01{
+	text-align: center;
+	background: #f6f6f6;
+	font-size: 0;
+}
+#office365_box_01 .office365_box_child01{
+	display: inline-block;
+	width: 20%;
+	background: #fff;
+	padding: 62px 0 40px 0;
+	min-width: 380px;
+}
+#office365_box_01 .office365_box_child01 h2{
+	font-family: "方正兰亭准黑";
+	font-size: 36px;
+	margin-top: 15px;
+}
+#office365_box_01 .office365_box_child01 p{
+	font-family: "方正兰亭准黑";
+	font-size: 16px;
+	color: #696a6b;
+	margin-top: 28px;
+}
+#office365_box_01 .office365_box_child01:nth-child(1) h2{
+	color: #f7b449;
+}
+#office365_box_01 .office365_box_child01:nth-child(2) h2{
+	color: #29a9ec;
+}
+#office365_box_01 .office365_box_child01:nth-child(3) h2{
+	color: #75c274;
+}
+#office365_box_02{
+	background: url(../img/texing_bg.jpg);
+	background-size: 100% 100%;
+	text-align: center;
+	padding: 40px 0 84px 0;
+	font-size: 0;
+}
+#office365_box_02 h1{
+	color: #fff;
+	font-size: 40px;
+}
+#office365_box_02 h1 span{
+	display: inline-block;
+	width: 50px;
+	border: 2px solid #fff;
+}
+#office365_box_02 .box{
+	width: 372px;
+	height: 400px;
+	position: relative;
+	display: inline-block;
+	margin-top: 40px;
+}
+#office365_box_02 .box .title{
+	font-family: "方正兰亭准黑";
+	font-size: 48px;
+	margin-top: 82px;
+	margin-bottom: 66px;
+	font-weight: bold;
+}
+#office365_box_02 .box p{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #d6e2ee;
+}
+#office365_box_02 .box:nth-child(3){
+	margin: 0 44px;
+}
+#office365_box_02 .box:nth-child(2) .title{
+	color: #4eb9ff;
+}
+#office365_box_02 .box:nth-child(3) .title{
+	color: #f7b449;
+}
+#office365_box_02 .box:nth-child(4) .title{
+	color: #75c274;
+}
+#office365_box_02 .box .bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #a2d1ff;
+	opacity: 0.2;
+}
+
+#office365_tab{
+	width: 1124px;
+	margin: 0 auto;
+	font-size: 0px;
+	padding: 0 38px;
+}
+#office365_tab li{
+	display: inline-block;
+	cursor: pointer;
+	color: #696a6b;
+	font-size: 18px;
+	padding: 19px 30px;
+}
+#office365_tab li.active{
+	background: url(../img/Tab.png) no-repeat;
+	background-size: 100% 100%;
+}
+#office365_box .tab2{
+	border-top: 1px solid #d8dadb;
+	width:1200px;
+	margin: 0 auto;
+	background: #fff;
+	min-height: 100px;
+	margin-top: -1px;
+}
+#Office .title{
+	font-size: 18px;
+	padding: 5px 0;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+#Office table{
+	width: 100%;
+	margin-top: 40px;
+	padding-bottom: 42px;
+}
+#Office td:nth-child(1) .title{
+	background: #3E97CF;
+}
+#Office td:nth-child(3) .title{
+	background: #F3B955;
+}
+#Office td:nth-child(5) .title{
+	background: #75C274;
+}
+#Office table td p{
+    width: 320px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 26px;
+    margin-top: 36px;
+}
+#Office table .split_line{
+	border-left: 1px solid #ccc;
+}
+
+#emailanddate .title{
+	text-align: center;
+	font-size: 18px;
+	color: #696A6B;
+	margin-top: 38px;
+	margin-bottom: 40px;
+}
+#emailanddate table{
+	width: 100%;
+}
+#emailanddate table td{
+	padding-bottom: 30px;
+}
+#emailanddate table td:nth-child(odd){
+	width: 60px;
+}
+#emailanddate table td h1{
+	font-size: 28px;
+}
+#emailanddate table td h3{
+	font-size: 20px;
+	color: #494a4b;
+	margin: 20px 0 16px 0;
+}
+#emailanddate table td h4{
+	font-size: 16px;
+	color: #696A6B;
+	font-weight: normal;
+}
+
+#meeting .title{
+	text-align: center;
+	font-size: 18px;
+	color: #696A6B;
+	margin-top: 38px;
+	margin-bottom: 40px;
+}
+#meeting table{
+	width: 100%;
+}
+#meeting table td{
+	padding-bottom: 30px;
+}
+#meeting table td:nth-child(odd){
+	width: 60px;
+}
+#meeting table td h1{
+	font-size: 28px;
+}
+#meeting table td h3{
+	font-size: 20px;
+	color: #494a4b;
+	margin: 20px 0 16px 0;
+}
+#meeting table td h4{
+	font-size: 16px;
+	color: #696A6B;
+	font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
