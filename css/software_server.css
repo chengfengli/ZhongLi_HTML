@@ -1,5 +1,5 @@
 #software_server_body{
-	
+	margin-bottom: 50px;
 }
 #software_server_banner{
 	font-size: 0;
@@ -85,7 +85,7 @@
 }
 #office365_box_02 h1 span{
 	display: inline-block;
-	width: 50px;
+	width: 40px;
 	border: 2px solid #fff;
 }
 #office365_box_02 .box{
@@ -185,12 +185,13 @@
 	border-left: 1px solid #ccc;
 }
 
-#emailanddate .title{
+#emailanddate .title,#meeting .title,#fileshare .title{
 	text-align: center;
 	font-size: 18px;
 	color: #696A6B;
 	margin-top: 38px;
 	margin-bottom: 40px;
+	text-indent: 2em;
 }
 #emailanddate table{
 	width: 100%;
@@ -215,13 +216,6 @@
 	font-weight: normal;
 }
 
-#meeting .title{
-	text-align: center;
-	font-size: 18px;
-	color: #696A6B;
-	margin-top: 38px;
-	margin-bottom: 40px;
-}
 #meeting table{
 	width: 100%;
 }
@@ -243,6 +237,203 @@
 	font-size: 16px;
 	color: #696A6B;
 	font-weight: normal;
+}
+
+#fileshare{
+	padding-bottom: 40px;
+}
+#fileshare table{
+	width: 100%;
+	text-align: center;
+}
+#fileshare table h3{
+	font-size: 28px;
+	color: #3F97D0;
+	margin-bottom: 24px;
+}
+#fileshare table div{
+	font-size: 16px;
+	color: #696A6B;
+	text-align: left;
+	display: inline-block;
+    line-height: 30px;
+}
+
+#task table{
+	width: 100%;
+	margin-left: 16px;
+}
+
+#task table tr:nth-child(1) td{
+	font-size: 18px;
+    color: #696a6b;
+    text-indent: 2em;
+    padding: 38px 10px 34px 10px;
+    line-height: 30px;
+
+}
+#task table tr:nth-child(2) td,#task table tr:nth-child(4) td,#task table tr:nth-child(6) td{
+	font-size: 28px;
+    color: #3f97d0;
+    border-left: 4px solid;
+    padding-left: 10px;
+}
+#task table tr:nth-child(3) td,#task table tr:nth-child(5) td,#task table tr:nth-child(7) td{
+    padding-left: 16px;
+    padding-bottom: 28px;
+}
+#task table h3{
+	font-size: 20px;
+	color: #494A4B;
+	margin-top: 24px;
+	margin-bottom: 18px;
+}
+#task table p{
+	font-size: 16px;
+	color: #696a6b;
+	text-indent: 2em;
+	line-height: 30px;
+}
+
+#moves{
+	padding-bottom: 30px;
+}
+#moves table{
+	width: 100%;
+}
+#moves table tr:nth-child(1){
+	text-align: center;
+    font-size: 28px;
+}
+#moves table tr:nth-child(1) p{
+	margin-top: 40px;
+}
+#moves table tr:nth-child(1){
+	margin: 20px 0 16px 0;
+}
+#moves table tr:nth-child(2){
+	text-align: center;
+}
+#moves table tr:nth-child(2) p{
+	display: inline-block;
+	font-size: 16px;
+	color: #696A6B;
+	line-height: 30px;
+	text-align: left;
+}
+
+#find table{
+	width: 100%;
+}
+#find .title{
+	font-size: 18px;
+	color: #696A6B;
+	text-align: center;
+	margin-top: 38px;
+    margin-bottom: 20px;
+}
+#find .content{
+	font-size: 16px;
+    color: #696a6b;
+    line-height: 30px;
+    text-indent:2em;
+    padding-bottom: 18px;
+    width: 692px;
+    background: url(../img/bottom_split.png) 0 bottom no-repeat;
+}
+#find .content:nth-child(1){
+	margin-top: 77px;
+}
+#find .content:nth-child(2){
+	margin-top: 98px;
+}
+#find .content:nth-child(3){
+	margin-top: 100px;
+}
+#find table .bg_img{
+	text-align: center;
+	background: url(../img/find_bg.png) 106px 0 no-repeat;
+	font-size: 26px;
+	color: #fff;
+	padding-top: 16px;
+}
+#find table .bg_img div{
+	padding: 0 66px 59px 126px;
+    margin-top: 52px;
+    margin-bottom: 50px;
+}
+
+#product_introduction{
+	height: 346px;
+	width: 1122px;
+	margin: 40px auto;
+}
+#product_introduction dt{
+	float: left;
+}
+#product_introduction dd{
+	float: left;
+	font-size: 16px;
+	color: #696a6b;
+	line-height: 30px;
+	padding: 70px 0 36px 72px
+}
+#powerBI_box h1{
+	text-align: center;
+}
+#powerBI_box .imgs_box{
+	width: 962px;
+	margin: 40px auto;
+	text-align: center;
+}
+#powerBI_box .imgs_box .img_box{
+	display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    color: #696a6b;
+    border: 2px solid #bdbfc2;
+    padding: 28px 20px;
+    width: 200px;
+}
+#powerBI_box .imgs_box .img_box:nth-child(2),#powerBI_box .imgs_box .img_box:nth-child(6){
+	margin-left: 110px;
+	margin-right: 110px;
+}
+
+#powerBI_box .imgs_box .img_box .explain{
+	height: 52px;
+	margin-top: 30px;
+}
+#powerBI_box .imgs_box tr:nth-child(1) td{
+	padding: 0 55px 70px 55px;
+}
+#powerBI_box .function{
+	width: 1200px;
+	margin: 40px auto;
+}
+#powerBI_box .function td{
+	padding-left: 20px;
+	padding-bottom: 38px;
+}
+#powerBI_box .function .title{
+	position: relative;
+    line-height: 64px
+}
+#powerBI_box .function .title img{
+	position: absolute;
+}
+#powerBI_box .function .title span{
+	margin-left: 84px;
+    font-size: 24px;
+    color: #3f97d0;
+}
+#powerBI_box .function .content{
+	color: #7d7c7d;
+    font-size: 16px;
+    text-indent: 2em;
+    margin-left: 30px;
+    width: 467px;
+    line-height: 30px;
 }
 
 

@@ -1,5 +1,6 @@
-var path = '/zhongli_html'
+var path = '/zhongli_html';
 $(function(){
 	$("header").load("header.html");
 	$("footer").load("footer.html");
+	var userAgent = navigator.userAgent;
 });
