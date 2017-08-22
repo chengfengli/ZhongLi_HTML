@@ -1,0 +1,118 @@
+@font-face {
+  font-family: '方正兰亭准黑_GBK';   /*字体名称*/
+  src:url('../font/方正兰亭准黑_GBK.ttf');       /*字体源文件*/
+}
+body{
+	background: #F6F6F6;
+}
+.Computing_banner{	
+	width: 100%;
+	height:700px;
+	background:url('../img/DistributedBanner.jpg');
+}
+.Distributed_content1{
+	width: 1200px;
+	height: 380px;
+	margin: 40px auto;
+
+}
+.Distributed_content1_list1{
+	width: 656px;
+	height: 380px;
+	background: url('../img/Distributed_content1_img.jpg') no-repeat;
+	background-position: 0px center;
+	float: left;
+}
+.Distributed_content1_list1 p{
+	font-family: '方正兰亭准黑_GBK'; 
+	font-size: 36px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 56px;
+}
+.Distributed_content1_list2{
+	width:478px;
+	height:380px;
+	margin-left:66px;
+	float: left;
+}
+.Distributed_content1_list2 p{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #838586;
+	padding-top: 56px;
+	line-height: 28px;
+}
+.Distributed_content2{
+		width: 100%;
+	height:560px;
+	background:url('../img/Distributed_content2_img.jpg');
+}
+.Distributed_content2 p{
+	padding-top: 78px;
+	color: #FFFFFF;
+	font-family: '方正兰亭准黑_GBK'; 
+	text-align: center;
+	font-size: 36px;
+}
+.Distributed_content2 table{
+	border: none;
+	width: 1000px;
+	height: 300px;
+	margin:55px auto;
+	color: #FFFFFF
+}
+.Distributed_content2 tr{
+	height: 49px;
+}
+.Distributed_content2 td{
+text-align: center;
+color: #d9f4ff;
+font-size: 16px;
+}
+.Distributed_content3_title,.Distributed_content4_title{
+	width: 900px;
+	height: 140px;
+	margin: auto;
+	color: #3F97D0;
+	text-align: center;
+	font-size: 36px;
+	font-family: '方正兰亭准黑_GBK'; 
+	background: url(../img/SafeMgr_split_line.png) center center no-repeat;
+}
+.Distributed_content3{
+	width: 100%;
+	height:624px;
+	background:url('../img/Distributed_content3_img.jpg');
+}
+.Distributed_content4{
+	width: 1200px;
+	height: 850px;
+	margin: 0 auto 50px;
+	color: #464849;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 50px;
+}
+.Distributed_content4_list1{
+	width: 100%;
+	height: 400px;
+	background: url('../img/Distributed_content4_img1.jpg') no-repeat;
+	background-position: 0px center;
+}
+.Distributed_content4_list2{
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+	background: url('../img/Distributed_content4_img2.jpg') no-repeat;
+	background-position: right center;
+}
+.Distributed_content4_list1_text{
+	width: 504px;
+	height: 400px;
+	margin-right: 50px;
+}
+.Distributed_content4_list1_text span{
+	font-size: 24px;
+	padding-right: 18px;
+}
