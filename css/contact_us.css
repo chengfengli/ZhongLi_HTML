@@ -1,0 +1,43 @@
+#body{
+	text-align: center;
+	margin-bottom: 100px;
+	position: relative;
+}
+#banner_img{
+	width: 100%;
+}
+#body .contact{
+	margin-top: 40px;
+}
+#body .contact_box{
+	color: #fff;
+	text-align: left;
+	position: absolute;
+	right: 17%;
+    bottom: 52px;
+}
+#body .contact_box h2{
+	font-size: 32px;
+	margin-bottom: 28px;
+	font-weight: normal;
+}
+#body .contact_box .tel,#body .contact_box .email,#body .contact_box .address{
+	font-size: 26px;
+	margin-bottom: 24px;
+	padding-left: 46px;
+}
+#body .contact_box .tel{
+	background: url(../img/about_TEL.png)  0px 6px no-repeat;
+	background-size: 26px 26px;
+}
+#body .contact_box .email{
+	background: url(../img/about_MAIL.png)  0px 6px no-repeat;
+	background-size: 26px 26px;
+}
+#body .contact_box .address{
+	background: url(../img/about_Address.png)  0px 6px no-repeat;
+	background-size: 26px 26px;
+}
+#body .contact_box .address div{
+	padding-left: 77px;
+}

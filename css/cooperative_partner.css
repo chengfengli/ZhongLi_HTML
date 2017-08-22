@@ -1,0 +1,9 @@
+#body{
+	text-align: center;
+}
+#body .banner:nth-child(1) img{
+	width: 100%;
+}
+#body .banner:nth-child(2){
+	margin: 122px 0;
+}
