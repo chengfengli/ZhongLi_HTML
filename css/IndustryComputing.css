@@ -129,5 +129,330 @@ padding-top: 18px;
 	font-size: 34px;
 	color: #3F97D0;
 	text-align: center;
-	padding-top: 40px;
+	padding: 40px 0px 38px;
+}
+.Industry_Internet_tb{
+	width:1200px;
+	height:600px;
+	margin:auto;
+	font-family:'方正兰亭准黑_GBK' ;
+	color: #FFFFFF;
+}
+.Industry_Internet_tb tr{
+	height: 300px;
+}
+.Industry_Internet_tb td{
+	width: 400px;
+}
+.Industry_Internet_tb tr:nth-child(1) td:nth-child(1){
+	background: #3F97D0;
+}
+.Industry_Internet_tb tr:nth-child(1) td:nth-child(2){
+	background: url('../img/Industry_Internet_tb_img1.jpg') no-repeat;
+}
+.Industry_Internet_tb tr:nth-child(1) td:nth-child(3){
+	background: #EEAF4B;
+}
+.Industry_Internet_tb tr:nth-child(2) td:nth-child(1){
+	background: url('../img/Industry_Internet_tb_img2.jpg') no-repeat;
+}
+.Industry_Internet_tb tr:nth-child(2) td:nth-child(2){
+	background: #68b067;
+}
+.Industry_Internet_tb tr:nth-child(2) td:nth-child(3){
+	background: url('../img/Industry_Internet_tb_img3.jpg') no-repeat;
+}
+.Industry_process{
+	width: 1200px;
+	height: 400px;
+	margin: auto;
+	background: url('../img/Industry_process_line.png') no-repeat;
+	background-position: center 100px;
+	}
+	.Industry_process div{
+		width: 300px;
+		height: 400px;		
+		float: left;
+	}
+.Industry_process_list1{
+background: url('../img/Industry_process_img1.png') no-repeat;
+	background-position: center 60px;
+}
+.Industry_process_list_title{
+	font-size: 30px; 
+	text-align: center;
+	line-height: 50px;
+	font-family: '方正兰亭准黑_GBK';
+}
+.Industry_process_list_content{
+	font-size: 16px; 
+	color: #696A6B;
+padding: 130px 30px;
+font-family: "微软雅黑";
+line-height: 30px;
+}
+.Industry_process_list2{
+background: url('../img/Industry_process_img2.png') no-repeat;
+	background-position: center 60px;
+}
+.Industry_process_list3{
+background: url('../img/Industry_process_img3.png') no-repeat;
+	background-position: center 60px;
+}
+.Industry_process_list4{
+background: url('../img/Industry_process_img4.png') no-repeat;
+	background-position: center 60px;
+}
+.Application_direction{
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+}
+.Application_direction li{
+	width: 384px;
+	height:100px;
+	margin-right: 24px;
+	list-style: none;
+	float: left;
+	background: #d1d3d6;
+	color: #87898b;
+	text-align: center;
+	line-height: 100px;
+		font-family: '方正兰亭准黑_GBK';
+		font-size: 30px;
+}
+#Application_direction_list3{
+	margin-right: 0px;
+}
+#Application_direction_list1{
+	color: #FFFFFF;
+	background: #3F97D0;
+}
+.Application_direction_box1{
+	width: 1200px;
+/*	height: 1192px;*/
+	margin: 40px auto;
+}	
+.Application_direction_box2{
+	width: 1200px;
+	/*height: 1192px;*/
+	margin: 40px auto;
+}	
+.Application_direction_box3{
+	width: 1200px;
+	height: 1192px;
+	margin: 40px auto;
+	background: indianred;
+}	
+.Application_direction_box1,.Application_direction_box3{
+	display: none;
+}
+
+.Application_direction_box1_list1{
+	width: 100%;
+	height: 360px;
+	background: url('../img/Application_direction_box1_img1.jpg') no-repeat;
+	background-position: left center;
+}
+.Application_direction_box1_list1 p,.Application_direction_box1_list3 p{
+	padding-left: 696px;
+	width: 450px;
+}
+.Application_direction_box1_list1 p:nth-child(1),.Application_direction_box1_list3 p:nth-child(1){
+	font-size: 26px;
+	color: #3F97D0;
+	font-family: '方正兰亭准黑_GBK';
+	line-height: 50px;
+	padding-top: 50px;
+}
+.Application_direction_box1_list1 p:nth-child(2),.Application_direction_box1_list3 p:nth-child(2){
+	font-size: 16px;
+	color: #8f9092;
+	font-family: '微软雅黑';
+	text-indent: 2em;
+	line-height: 30px;
+}
+.Application_direction_box1_list2{
+	width: 100%;
+	height: 400px;
+	margin-top: 36px;
+	background: url('../img/Application_direction_box1_img2.jpg') no-repeat;
+	background-position: right center;
+}
+.Application_direction_box1_list2 p:nth-child(1),.Application_direction_box1_list4 p:nth-child(1){
+	width: 200px;
+	height: 30px;
+	border-left:4px solid #3F97D0 ;
+	color: #3F97D0;
+	font-family: '方正兰亭准黑_GBK';
+	font-size: 26px;
+	padding-left: 10px;
+}
+.Application_direction_box1_list2 p:nth-child(2),.Application_direction_box1_list4 p:nth-child(2){
+	font-size: 16px;
+	color: #8f9092;
+	font-family: '微软雅黑';
+	text-indent: 2em;
+	line-height: 30px;
+	padding: 30px;
+	width: 550px;
+}
+.Application_direction_box1_list2 p:nth-child(3){
+	font-size: 20px;
+	color: #3F97D0;
+	font-family: '方正兰亭准黑_GBK';
+	line-height: 30px;
+	padding-left: 30px;
+	width: 550px;
+}
+.Application_direction_box1_list2 p:nth-child(4),p:nth-child(5){
+	font-size: 16px;
+	color: #8f9092;
+	font-family: '微软雅黑';
+	line-height: 30px;
+	padding-left: 50px;
+	width: 550px;
+	background: url('../img/item.png') no-repeat;
+	background-position: 30px center;
+}
+.Application_direction_box1_list3{
+	width: 100%;
+	height: 360px;
+	margin-top: 36px;
+	background: url('../img/Application_direction_box1_img3.jpg') no-repeat;
+	background-position: left center;
+}
+.Application_direction_box1_list4{
+		width: 100%;
+	height: 400px;
+	margin-top: 36px;
+	background: url('../img/Application_direction_box1_img4.jpg') no-repeat;
+	background-position: right center;
+}
+.related_products{
+	width: 1200px;
+	height: 1000px;
+	margin: auto;
+}
+.related_products_title{
+	width: 100%;
+	height: 30px;
+	border-left:4px solid #3F97D0 ;
+	color: #3F97D0;
+	font-family: '方正兰亭准黑_GBK';
+	font-size: 30px;
+	padding-left: 10px;
+	line-height: 30px;
+}
+.related_products_content{
+	width: 1200px;
+	height: 380px;
+	margin: 30px auto;
+	}
+	.related_products_content_div{
+		margin-right: 20px;
+		width: 285px;
+		height: 400px;
+		float: left;
+			color: #a2a5a9;
+	}
+	.related_products_content_div:hover{
+		color: #3F97D0;
+	}
+.related_products_content p{
+
+	font-family:'方正兰亭准黑_GBK';
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.related_products_content_img{
+	width: 283px;
+	height: 328px;
+	background: #FFFFFF;
+	border: 1px solid #A2A5A9;
+}
+.Application_direction_box2_list1{
+	width: 100%;
+	height: 360px;
+	background: url('../img/Application_direction_box2_img1.jpg') no-repeat;
+	background-position: right center;
+}
+.Application_direction_box2_list1 p,.Application_direction_box2_list3 p{
+	padding-left: 64px;
+	width: 450px;
+}
+.Application_direction_box2_list1 p:nth-child(1),.Application_direction_box2_list3 p:nth-child(1){
+	font-size: 26px;
+	color: #3F97D0;
+	font-family: '方正兰亭准黑_GBK';
+	line-height: 50px;
+	padding-top: 50px;
+}
+.Application_direction_box2_list1 p:nth-child(2),.Application_direction_box2_list3 p:nth-child(2){
+	font-size: 16px;
+	color: #8f9092;
+	font-family: '微软雅黑';
+	text-indent: 2em;
+	line-height: 30px;
+}
+.Application_direction_box2_list2{
+	width: 100%;
+	height: 360px;
+	margin-top: 36px;
+	background: url('../img/Application_direction_box2_img2.jpg') no-repeat;
+	background-position: left center;
+}
+.Application_direction_box2_list2 p,.Application_direction_box2_list4 p{
+	margin-left: 587px;
+}
+.Application_direction_box2_list2 p:nth-child(1),.Application_direction_box2_list4 p:nth-child(1){
+	width: 200px;
+	height: 30px;
+	border-left:4px solid #3F97D0 ;
+	color: #3F97D0;
+	font-family: '方正兰亭准黑_GBK';
+	font-size: 26px;
+	padding-left: 10px;
+	margin-top: 50px;
+}
+.Application_direction_box2_list2 p:nth-child(2),.Application_direction_box2_list2 p:nth-child(3),.Application_direction_box2_list4 p:nth-child(2){
+	font-size: 16px;
+	color: #8f9092;
+	font-family: '微软雅黑';
+	text-indent: 2em;
+	line-height: 30px;
+	padding: 30px;
+	width: 550px;
+}
+/*.Application_direction_box2_list2 p:nth-child(3){
+	font-size: 20px;
+	color: #3F97D0;
+	font-family: '方正兰亭准黑_GBK';
+	line-height: 30px;
+	padding-left: 30px;
+	width: 550px;
+}
+.Application_direction_box2_list2 p:nth-child(4),p:nth-child(5){
+	font-size: 16px;
+	color: #8f9092;
+	font-family: '微软雅黑';
+	line-height: 30px;
+	padding-left: 50px;
+	width: 550px;
+	background: url('../img/item.png') no-repeat;
+	background-position: 30px center;
+}*/
+.Application_direction_box2_list3{
+	width: 100%;
+	height: 360px;
+	margin-top: 36px;
+	background: url('../img/Application_direction_box2_img3.jpg') no-repeat;
+	background-position: right center;
+}
+.Application_direction_box2_list4{
+		width: 100%;
+	height: 300px;
+	margin-top: 36px;
+	background: url('../img/Application_direction_box2_img4.jpg') no-repeat;
+	background-position: left center;
 }
