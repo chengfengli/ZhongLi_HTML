@@ -38,9 +38,6 @@ padding-top: 18px;
 	line-height: 36px;
 }
 .Computing_title hr{
-	/*width: 300px;
-	height:2px;
-	border-top:2px solid #bcc6cd;" */
 	width: 40px;
 	height: 4px;
 	background: #3f97d0;
@@ -228,23 +225,23 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 	color: #FFFFFF;
 	background: #3F97D0;
 }
+.Application_direction_content{
+	width: 100%;
+	margin: 0 auto;
+}
 .Application_direction_box1{
 	width: 1200px;
-/*	height: 1192px;*/
 	margin: 40px auto;
 }	
 .Application_direction_box2{
 	width: 1200px;
-	/*height: 1192px;*/
 	margin: 40px auto;
 }	
 .Application_direction_box3{
 	width: 1200px;
-	height: 1192px;
 	margin: 40px auto;
-	background: indianred;
 }	
-.Application_direction_box1,.Application_direction_box3{
+.Application_direction_box2,.Application_direction_box3{
 	display: none;
 }
 
@@ -254,18 +251,18 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 	background: url('../img/Application_direction_box1_img1.jpg') no-repeat;
 	background-position: left center;
 }
-.Application_direction_box1_list1 p,.Application_direction_box1_list3 p{
+.Application_direction_box1_list1 p,.Application_direction_box1_list3 p,.Application_direction_box3_list1 p{
 	padding-left: 696px;
 	width: 450px;
 }
-.Application_direction_box1_list1 p:nth-child(1),.Application_direction_box1_list3 p:nth-child(1){
+.Application_direction_box1_list1 p:nth-child(1),.Application_direction_box1_list3 p:nth-child(1),.Application_direction_box3_list1 p:nth-child(1){
 	font-size: 26px;
 	color: #3F97D0;
 	font-family: '方正兰亭准黑_GBK';
 	line-height: 50px;
 	padding-top: 50px;
 }
-.Application_direction_box1_list1 p:nth-child(2),.Application_direction_box1_list3 p:nth-child(2){
+.Application_direction_box1_list1 p:nth-child(2),.Application_direction_box1_list3 p:nth-child(2),.Application_direction_box3_list1 p:nth-child(2){
 	font-size: 16px;
 	color: #8f9092;
 	font-family: '微软雅黑';
@@ -279,7 +276,7 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 	background: url('../img/Application_direction_box1_img2.jpg') no-repeat;
 	background-position: right center;
 }
-.Application_direction_box1_list2 p:nth-child(1),.Application_direction_box1_list4 p:nth-child(1){
+.Application_direction_box1_list2 p:nth-child(1),.Application_direction_box1_list4 p:nth-child(1),.Application_direction_box3_list2 p:nth-child(1){
 	width: 200px;
 	height: 30px;
 	border-left:4px solid #3F97D0 ;
@@ -288,7 +285,7 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 	font-size: 26px;
 	padding-left: 10px;
 }
-.Application_direction_box1_list2 p:nth-child(2),.Application_direction_box1_list4 p:nth-child(2){
+.Application_direction_box1_list2 p:nth-child(2),.Application_direction_box1_list4 p:nth-child(2),.Application_direction_box3_list2 p:nth-child(2){
 	font-size: 16px;
 	color: #8f9092;
 	font-family: '微软雅黑';
@@ -297,7 +294,7 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 	padding: 30px;
 	width: 550px;
 }
-.Application_direction_box1_list2 p:nth-child(3){
+.Application_direction_box1_list2 p:nth-child(3),.Application_direction_box3_list2 p:nth-child(3){
 	font-size: 20px;
 	color: #3F97D0;
 	font-family: '方正兰亭准黑_GBK';
@@ -305,7 +302,7 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 	padding-left: 30px;
 	width: 550px;
 }
-.Application_direction_box1_list2 p:nth-child(4),p:nth-child(5){
+.Application_direction_box1_list2 p:nth-child(4),.Application_direction_box1_list2 p:nth-child(5),.Application_direction_box3_list2 p:nth-child(4),.Application_direction_box3_list2 p:nth-child(5){
 	font-size: 16px;
 	color: #8f9092;
 	font-family: '微软雅黑';
@@ -424,24 +421,6 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 	padding: 30px;
 	width: 550px;
 }
-/*.Application_direction_box2_list2 p:nth-child(3){
-	font-size: 20px;
-	color: #3F97D0;
-	font-family: '方正兰亭准黑_GBK';
-	line-height: 30px;
-	padding-left: 30px;
-	width: 550px;
-}
-.Application_direction_box2_list2 p:nth-child(4),p:nth-child(5){
-	font-size: 16px;
-	color: #8f9092;
-	font-family: '微软雅黑';
-	line-height: 30px;
-	padding-left: 50px;
-	width: 550px;
-	background: url('../img/item.png') no-repeat;
-	background-position: 30px center;
-}*/
 .Application_direction_box2_list3{
 	width: 100%;
 	height: 360px;
@@ -455,4 +434,17 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 	margin-top: 36px;
 	background: url('../img/Application_direction_box2_img4.jpg') no-repeat;
 	background-position: left center;
+}
+.Application_direction_box3_list1{
+	width: 100%;
+	height: 360px;
+	background: url('../img/Application_direction_box3_img1.jpg') no-repeat;
+	background-position: left center;
+}
+.Application_direction_box3_list2{
+	width: 100%;
+	height: 400px;
+	margin-top: 36px;
+	background: url('../img/Application_direction_box3_img2.jpg') no-repeat;
+	background-position: right center;
 }
