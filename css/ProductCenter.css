@@ -1,0 +1,103 @@
+@font-face {
+  font-family: '方正兰亭准黑_GBK';   /*字体名称*/
+  src:url('../font/方正兰亭准黑_GBK.ttf');       /*字体源文件*/
+}
+body{
+	background: #F6F6F6;
+}
+.Computing_banner{	
+	width: 100%;
+	height:500px;
+	background:url('../img/product_banner.jpg');
+}
+.Product_content{
+	width: 1200px;
+	height:564px;
+	margin:40px auto;
+}
+.Product_content_img{
+	width: 490px;
+	height:564px;
+	float: left;
+}
+.Product_content_img{
+	width: 490px;
+	height:564px;
+	float: left;
+}
+.Product_content_text{
+	width: 648px;
+	height:564px;
+	float: left;
+	margin-left: 62px;
+}
+.Product_content_img_big{
+	width: 488px;
+	height: 450px;
+	border: 1px solid #bcc6cd;
+}
+.Product_content_img_little{
+	width: 490px;
+	height: 82px;
+	margin-top: 30px;
+}
+.Product_content_img_little li{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	border: 1px solid #bcc6cd;
+	list-style: none;
+	float: left;
+}
+.Product_content_img_little li:last-child{
+		margin-right: 0px;
+}
+.Product_content_text .title_pro{
+	font-size: 30px;
+	font-family: "微软雅黑";
+	color: #3F97D0;
+	line-height: 50px;
+	padding-top: 62px;
+}
+.Product_content_text .category_pro{
+	color: #848586;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	line-height: 50px;
+}
+.Product_content_text .category_pro span{
+	color: #3F97D0;
+}
+.describe_pro{
+		color: #848586;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-indent: 2em;
+		line-height: 30px;
+}
+.ProductCenter_title{
+	width: 1200px;
+	height: 42px;
+	margin: auto;
+	color: #3F97D0;
+	border-bottom: 1px solid #bcc6cd;
+	font-size: 30px;
+	font-family: "微软雅黑";
+		margin: 32px auto;
+}
+.ProductCenter_title span{
+	border-bottom: 4px solid #3F97D0;
+}
+.ProductCenter_text{
+	width: 1200px;
+	margin: auto;
+}
+.ProductCenter_text span{
+	color: #848586;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	padding-left: 24px;
+	line-height: 36px;
+	background: url('../img/item.png') no-repeat;
+	background-position: left center;
+	}
