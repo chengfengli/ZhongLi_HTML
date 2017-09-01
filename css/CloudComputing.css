@@ -17,54 +17,68 @@ body{
 }
 .Computing_menu ul{
 	width: 1200px;
-	height: 100%;
 	margin: 0 auto;
 }
 .Computing_menu ul li{
 	float: left;
 	list-style: none;
 	width: 398px;
-	height: 100%;
-	border-left: 1px solid #125A8A;
-	border-right: 1px solid #125A8A;
 	font-size: 28px;
 	color: #FFFFFF;
 	font-family: "微软雅黑";
-	line-height: 120px;
-	text-indent:160px ;
-	
+	cursor: pointer;
+}
+.Computing_menu ul li:hover{
+	background: #1f85c6;
+}
+.Computing_menu ul li div{
+	padding: 41px 0 41px 156px;
+}
+.Computing_menu_list1-click{
+	background: url(../img/Cloud_media-hover.png) 56px no-repeat;
+	color: #eec782;
+}
+.Computing_menu_list1-hover{
+	background: url(../img/Cloud_media.png) 56px no-repeat;
+	color: #fff;
+}
+.Computing_menu_list2-click{
+	background: url(../img/network_security-hover.png) 56px no-repeat;
+	color: #3fd3a8;
+}
+.Computing_menu_list2-hover{
+	background: url(../img/network_security.png) 56px no-repeat;
+	color: #fff;
+}
+.Computing_menu_list3-click{
+	background: url(../img/edge_computing-hover.png) 56px no-repeat;
+	color: #5fc4f8;
+}
+.Computing_menu_list3-hover{
+	background: url(../img/edge_computing.png) 56px no-repeat;
+	color: #fff;
+}
+
+
+
+.active{
+	background-color:#1f85c6;
 }
 .Computing_menu ul li:nth-child(1){
-	background: url('../img/Cloud_media.png') no-repeat ;
-	background-position: 40px center;
-}
-.Computing_menu ul li:nth-child(1):hover{
-	background: url('../img/Cloud_media_hover.png') no-repeat #1F85C6 ;
-	background-position: 40px center;
-	color: #eec782;
+	background-image: url(../img/hr.jpg);
+	background-repeat: no-repeat;
 }
 .Computing_menu ul li:nth-child(2){
-	background: url('../img/network_security.png') no-repeat ;
-	background-position: 40px center;
-}
-.Computing_menu ul li:nth-child(2):hover{
-	background: url('../img/network_security_hover.png') no-repeat #1F85C6 ;
-	background-position: 40px center;
-	color: #eec782;
+	background-image: url(../img/hr2.jpg);
+	background-repeat: no-repeat;
 }
 .Computing_menu ul li:nth-child(3){
-	background: url('../img/edge_computing.png') no-repeat ;
-	background-position: 40px center;
-}
-.Computing_menu ul li:nth-child(3):hover{
-	background: url('../img/edge_computing_hover.png') no-repeat #1F85C6 ;
-	background-position: 40px center;
-	color: #eec782;
+	background-image: url(../img/hr.jpg);
+	background-repeat: no-repeat;
 }
 .Computing_content{
 	width: 100%;
 	margin: 0px auto;
-		
 }
 .Computing_content_box2,.Computing_content_box3{
 display: none;

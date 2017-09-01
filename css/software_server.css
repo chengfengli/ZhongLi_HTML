@@ -155,10 +155,11 @@
 }
 #Office .title{
 	font-size: 18px;
-	padding: 5px 0;
+	padding: 10px 0;
 	width: 200px;
 	margin: 0 auto;
 	text-align: center;
+	color: #fff;
 }
 #Office table{
 	width: 100%;
@@ -190,7 +191,7 @@
 	text-align: center;
 	font-size: 18px;
 	color: #696A6B;
-	margin-top: 38px;
+	margin-top: 32px;
 	margin-bottom: 40px;
 	text-indent: 2em;
 }
@@ -205,16 +206,20 @@
 }
 #emailanddate table td h1{
 	font-size: 28px;
+	margin-top: 8px;
+	font-weight: normal;
 }
 #emailanddate table td h3{
 	font-size: 20px;
 	color: #494a4b;
-	margin: 20px 0 16px 0;
+    margin: 12px 0 13px 0;
+    font-weight: normal;
 }
 #emailanddate table td h4{
 	font-size: 16px;
 	color: #696A6B;
 	font-weight: normal;
+    line-height: 26px;
 }
 
 #meeting table{
@@ -228,16 +233,20 @@
 }
 #meeting table td h1{
 	font-size: 28px;
+	margin-top: 8px;
+	font-weight: normal;
 }
 #meeting table td h3{
 	font-size: 20px;
 	color: #494a4b;
-	margin: 20px 0 16px 0;
+	margin: 12px 0 13px 0;
+	font-weight: normal;
 }
 #meeting table td h4{
 	font-size: 16px;
 	color: #696A6B;
 	font-weight: normal;
+	line-height: 26px
 }
 
 #fileshare{
@@ -251,6 +260,7 @@
 	font-size: 28px;
 	color: #3F97D0;
 	margin-bottom: 24px;
+	font-weight: normal;
 }
 #fileshare table div{
 	font-size: 16px;
@@ -269,7 +279,7 @@
 	font-size: 18px;
     color: #696a6b;
     text-indent: 2em;
-    padding: 38px 10px 34px 10px;
+    padding: 38px 10px 20px 10px;
     line-height: 30px;
 
 }
@@ -281,13 +291,14 @@
 }
 #task table tr:nth-child(3) td,#task table tr:nth-child(5) td,#task table tr:nth-child(7) td{
     padding-left: 16px;
-    padding-bottom: 28px;
+    padding-bottom: 14px;
 }
 #task table h3{
 	font-size: 20px;
 	color: #494A4B;
 	margin-top: 24px;
 	margin-bottom: 18px;
+	font-weight: normal;
 }
 #task table p{
 	font-size: 16px;
@@ -395,6 +406,10 @@
     border: 2px solid #bdbfc2;
     padding: 28px 20px;
     width: 200px;
+}
+#powerBI_box .imgs_box .img_box:hover{
+	color: #3F97D0;
+	border-color: #3F97D0;
 }
 #powerBI_box .imgs_box .img_box:nth-child(2),#powerBI_box .imgs_box .img_box:nth-child(6){
 	margin-left: 110px;

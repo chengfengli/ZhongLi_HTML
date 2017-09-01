@@ -45,6 +45,11 @@
  #header li .menu_2 div a{
  	padding: 0 0;
  	line-height: 42px;
+ 	color: #fff;
+ 	font-size: 16px;
+ }
+ #header li .menu_2 div a:hover{
+ 	color: #efd914;
  }
  .none{
  	display: none;

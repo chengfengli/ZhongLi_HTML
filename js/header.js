@@ -19,7 +19,10 @@ $(function(){
 	
 	$('#header li').hover(function(){
 		$(this).find("div").show();
+		$(this).children("a").css('color',"#fff");
 	},function(){
-		$(this).find("div").hide()
+		$(this).find("div").hide();
+		$(this).children("a").css('color',"#000");
+		$(this).children(".bg_color").css('color',"#fff");
 	});
 });

@@ -30,14 +30,14 @@ $(function(){
 	
 	/*新闻动态图片定时自动轮播*/
 	var news_index = 0;
-	setInterval(function(){
-		news_index++;
-		if(news_index>=3){
-			news_index = 0;
-		}
-		var img_width = $('#SafeMgr_dynamic_left_banner .banner_img li').width();
-		$("#SafeMgr_dynamic_left_banner .banner_img").css({'margin-left':-(news_index*img_width)+"px"});
-	},3000);
+//	setInterval(function(){
+//		news_index++;
+//		if(news_index>=3){
+//			news_index = 0;
+//		}
+//		var img_width = $('#SafeMgr_dynamic_left_banner .banner_img li').width();
+//		$("#SafeMgr_dynamic_left_banner .banner_img").css({'margin-left':-(news_index*img_width)+"px"});
+//	},3000);
 	
 	/*点击切换banner*/
 	$("#banner_btn_box div").click(function(){

@@ -215,8 +215,9 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 	color: #87898b;
 	text-align: center;
 	line-height: 100px;
-		font-family: '方正兰亭准黑_GBK';
-		font-size: 30px;
+	font-family: '方正兰亭准黑_GBK';
+	font-size: 30px;
+	cursor: pointer;
 }
 #Application_direction_list3{
 	margin-right: 0px;
