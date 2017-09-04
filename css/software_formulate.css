@@ -1,0 +1,30 @@
+#tab_box div{
+    float: left;
+    background-color: #1771ab;
+    width: 30%;
+}
+#info {
+    margin-left: 20%;
+    background-image: url(../img/hr.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#website{
+	background-image: url(../img/hr2.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#tab_box a{
+	color: #fff;
+    display: inline-block;
+    padding: 38px 0;
+    font-size: 34px;
+    width: 100%;
+}
+#tab_box a:hover{
+	background-color: #1f85c6;
+}
+#tab_box .active{
+	background-color: #1f85c6;
+}
+

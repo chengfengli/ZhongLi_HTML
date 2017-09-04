@@ -205,6 +205,14 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 	height: 100px;
 	margin: auto;
 }
+.Application_direction li:hover{
+	color: #FFFFFF;
+  background: #3F97D0;
+}
+.Application_direction .active{
+	color: #FFFFFF;
+  background: #3F97D0;
+}
 .Application_direction li{
 	width: 384px;
 	height:100px;
@@ -222,10 +230,7 @@ background: url('../img/Industry_process_img4.png') no-repeat;
 #Application_direction_list3{
 	margin-right: 0px;
 }
-#Application_direction_list1{
-	color: #FFFFFF;
-	background: #3F97D0;
-}
+
 .Application_direction_content{
 	width: 100%;
 	margin: 0 auto;

@@ -25,4 +25,13 @@ $(function(){
 		$(this).children("a").css('color',"#000");
 		$(this).children(".bg_color").css('color',"#fff");
 	});
+	$("#back_top").hide();
+	$(document).scroll(function(){
+		var top = $(document).scrollTop();
+		if(top>800){
+			$("#back_top").show();
+		}else{
+			$("#back_top").hide();
+		}
+	});
 });

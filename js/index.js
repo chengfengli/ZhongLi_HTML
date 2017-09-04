@@ -59,10 +59,11 @@ $(function(){
 	/*新闻动态图片切换*/
 	var news_banner_index = 0;
 	$('#SafeMgr_dynamic_left_banner .left').click(function(){
+		
 		var img_width = $('#SafeMgr_dynamic_left_banner .banner_img li').width();
-		news_banner_index++;
-		if(news_banner_index>=3){
-			news_banner_index = 0;
+		news_banner_index--;
+		if(news_banner_index<0){
+			news_banner_index = 2;
 		}
 		$('#SafeMgr_dynamic_left_banner .banner_img').css({'margin-left':-(news_banner_index*img_width)+"px"});
 	});
@@ -73,9 +74,9 @@ $(function(){
 	});
 	$('#SafeMgr_dynamic_left_banner .right').click(function(){
 		var img_width = $('#SafeMgr_dynamic_left_banner .banner_img li').width();
-		news_banner_index--;
-		if(news_banner_index<0){
-			news_banner_index = 2;
+		news_banner_index++;
+		if(news_banner_index>=3){
+			news_banner_index = 0;
 		}
 		$('#SafeMgr_dynamic_left_banner .banner_img').css({'margin-left':-(news_banner_index*img_width)+"px"});
 	});
