@@ -212,7 +212,7 @@ padding-top: 18px;
 .Application_scenarios_bg3:hover{
 	background: url('../img/Video_conference_hover.jpg');
 } 
-.Application_scenarios_bg1 p{
+.Application_scenarios_bg_style2 p{
 	margin: 0px 50px;
 		text-indent: 2em;
 		font-family: "微软雅黑";
@@ -220,12 +220,7 @@ padding-top: 18px;
 		color: #FFFFFF;
 		line-height: 30px;
 }
-.Application_scenarios_bg2 p{
-			font-family:方正兰亭准黑_GBK ;
-			color:#FFFFFF;
-	text-align: center;
-}
-.Application_scenarios_bg3 p{
+.Application_scenarios_bg_style p{
 			font-family:方正兰亭准黑_GBK ;
 			color:#FFFFFF;
 	text-align: center;
